@@ -22,13 +22,13 @@ public class Reflector extends Rotor {
             reflection = r;
     }
       
-    //The following function has the same usage than those which is in Rotor.java
+    ////The following functions permit to covert a letter depending on the cipher
     
     public int convertForward(int p) {
         return ((reflection[((p)%26+26)%26])%26+26)%26;
     }
 
-    //
+    //The Reflector doesn't have a Backward
     
     @Override
     public int convertBackward(int unused) {

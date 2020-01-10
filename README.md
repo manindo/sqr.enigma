@@ -16,15 +16,19 @@ Code for the German Enigma machine used in WW2.
 Hereafter, for each classes give function to be tested 
 
 ### Classe Machine
-- convert
-- convertChar
+- convert (already tested)  
+- convertChar (test par lecture du code)
 - advanceRotors 
 
 ### Classe Reflector
 - reflectorFactory
+- convertForward
 
 ### Classe Rotor
 - rotorFactory
+- advance
+- convertForward
+- convertBackward
 
 ## Tricks & tips
 

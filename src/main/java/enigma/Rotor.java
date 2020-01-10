@@ -55,7 +55,7 @@ public class Rotor {
 
     }
 
-    //The 2 following functions permit to cipher a letter, with a chain which contain a variable parameter given in entrance of the fuction.
+    //The 2 following functions permit to covert a letter depending on the cipher
     
     public int convertForward(int p) {
         return ((cipher[((p+position)%26+26)%26]-position)%26+26)%26;
