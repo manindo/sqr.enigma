@@ -16,13 +16,15 @@ Code for the German Enigma machine used in WW2.
 Hereafter, for each classes give function to be tested 
 
 ### Classe Machine
-#### functions
+- convert
+- convertChar
+- advanceRotors 
 
 ### Classe Reflector
-#### function
+- reflectorFactory
 
 ### Classe Rotor
-#### function
+- rotorFactory
 
 ## Tricks & tips
 
